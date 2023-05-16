@@ -1,0 +1,92 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3B4664;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box_up{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.box_left h2{
+    color: #fff;
+}
+.box_right{
+    display: flex;
+    color: #fff;
+    font-size: 15px; 
+}
+.select ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.box_select{
+    display: flex;
+}
+.box_center input{
+    width: 500px;
+    height: 120px;
+    background-color: #181F32;
+    border: 1px solid #181F32 ;
+    border-radius: 10px;
+    margin: 5px;
+}
+.butao{
+    background-color: #E9E3DB;
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid #B2A195;
+}
+.botuo{
+    background-color: #252D44;
+    width: 99px;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid #424E75;
+}
+.bitau{
+    background-color: #252D44;
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid #424E75;
+}
+.botau{
+    background-color: #D13F30;
+    width: 100px;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid #8F2316;
+}
+.box_down_left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box_down_right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box_down{
+    background-color: #1e2b4b;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+}
